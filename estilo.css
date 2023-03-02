@@ -1,0 +1,91 @@
+* 
+{
+    margin: 0;
+    font-family: 'Lagosta'
+    padding: 0;
+    
+}
+body {
+    background-color: aliceblue;
+    width: 250px;
+    height: 200px;
+    position: center;
+}
+
+.imgt {
+    position: absolute;
+    width: 720px;
+    height: 600px;
+    left: 720px;
+    top: 0cm;
+    background: url(image.png);
+    opacity: 0.84;
+    background-color: rgba(0, 0, 255, 0.185);
+    border: #73AD21; 
+}
+        
+
+ .img {
+    border: 3px solid #73AD21; 
+    border-radius: 3rem;
+    margin: 30px;
+ }
+
+.nome {
+    position: center;
+    bottom: 5;
+    right: 5px;
+    width: 300px;
+    border: 3px solid #73AD21; 
+    border-radius: 1rem;
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.aluno {
+    height: 50px;
+    width: 150px;
+    position: center;
+    bottom: 0;
+    right: 0;
+    width: 10cm;
+    border: 3px solid #73AD21; 
+    border-radius: 1rem;
+  }
+
+ .contato{
+  position: center;
+  bottom: 0;
+  right: 0;
+  width: 12cm;
+  border: 3px solid #73AD21;
+  border-radius: 1rem;
+}
+
+.projeto {
+    position: center;
+    bottom: 0;
+    right: 0;
+    width: 15cm;
+    border: 3px solid #73AD21;
+    border-radius: 1rem;
+}
+
+.sobre {
+    position:sticky;
+    bottom: 50;
+    right: 600px;
+    width: 20cm;
+    border: 3px solid #73AD21;
+    border-radius: 1rem;
+    flex-direction: row;
+}
+
+form {
+    display: flex;
+    flex-direction:column;
+    justify-content: stretch;
+    align-items:stretch;
+    position:center;
+    top: 900px;
+}
